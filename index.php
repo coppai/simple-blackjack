@@ -1,1 +1,6 @@
-<?php header( 'Location: /index.html' ) ;  ?>
+<?php header( 'Location: /index.html' ) ;  
+
+// so we can deploy to heroku 
+
+?>
+
