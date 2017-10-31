@@ -11,3 +11,8 @@ This is a simple implementation of the classic game of Blackjack.  It was done a
 
 * Bootstrap 
 * jQuery
+
+
+## demo 
+
+[https://simple-blackjack.herokuapp.com/index.html] https://simple-blackjack.herokuapp.com/index.html
