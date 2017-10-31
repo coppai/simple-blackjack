@@ -1,0 +1,72 @@
+body {   
+    background-image: url('../images/green-lake-wallpaper-forest-plain-background.jpg');
+    background-repeat: no-repeat;
+    /* background-size: 100%;  */
+    padding-top: 50px;
+}
+
+.title {
+    margin: 0px auto;
+    color: #fff;
+    width: 160px;
+}
+.main {
+
+}
+
+
+.row {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 14px;
+
+}
+
+
+.card img {
+    width: 80px;
+}
+
+.score {
+    color: #fff;
+}
+
+.player-region {
+    margin-top: 50px;
+}
+
+#player-1-region {
+
+    margin-bottom: 10px;
+    padding: 20px 0;
+
+}
+
+.alert {
+    display: none;
+    width: 200px;
+}
+
+
+.player-alert{
+    margin-top: 50px;
+}
+
+img.sad, img.happy {
+    height: 30px;
+}
+
+#winner .modal-dialog {
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+#winner .modal-dialog .modal-content {
+    width: 50% !important;
+}

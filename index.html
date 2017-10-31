@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/main.css?v=112">
+    </head>
+    <body>
+        
+        <div class="container main">
+             <h2 class='title'>BlackJack</h2>
+            <div class="row">
+                <div class="player-region" id="dealer-region">
+                    <h1>Dealer Cards</h1>
+                    <ul class="cards list-unstyled list-inline">
+                    </ul>
+                </div>
+
+                <div class="player-region" id="player-1-region">
+                    <h1>Player 1 Cards</h1>
+                    <div class="score"></div>
+                    <ul class="cards list-inline">
+                    </ul>
+                    
+                </div>
+
+            <button class="hit btn btn-default">Hit</button>
+            <button class="hold btn btn-default">Hold</button>
+            <button class="reset-game btn btn-default">Play Again</button>
+
+            </div>
+
+            <!-- <canvas id="demoCanvas" width="700" height="300"></canvas> -->
+
+
+            <div class="player-alert alert alert-info" role="alert">
+                YOU WIN! <img class='happy' src="./images/25b924f1d18fea2c7dfcb26a9905c1e8.png" />
+            </div>
+
+
+            <div id='winner' class="modal fade" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">YOU WIN!!</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>One fine body&hellip;</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="modal-play-again btn btn-primary">Play Again</button>
+                    </div>
+                  </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+              </div><!-- /.modal -->
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+        <script src="/js/main.js?v=df"></script>
+
+    </body>
+</html>
